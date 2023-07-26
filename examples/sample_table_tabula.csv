@@ -1,0 +1,12 @@
+,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Results
+0,,,,Ballots,,
+1,Disability,,Ballots,,,
+2,,Participants,,Incomplete/,,
+3,Category,,Completed,,Accuracy,Time to
+4,,,,Terminated,,
+5,,,,,,complete
+6,Blind,5,1,4,"34.5%, n=1","1199 sec, n=1"
+7,Low Vision,5,2,3,98.3% n=2,"1716 sec, n=3"
+8,,,,,"(97.7%, n=3)","(1934 sec, n=2)"
+9,Dexterity,5,4,1,"98.3%, n=4","1672.1 sec, n=4"
+10,Mobility,3,3,0,"95.4%, n=3","1416 sec, n=3"
