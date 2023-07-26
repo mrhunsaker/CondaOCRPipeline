@@ -7,7 +7,7 @@ Set up Anaconda environment with image preprocessing and optical character recog
 * Install [Poppler](https://github.com/oschwartz10612/poppler-windows/releases/) for Windows and note the location of the binary folder, e.g., `~\AppData\Local\Programs\poppler-23.07.0\Library\bin`.
 * Install [Ghostscript](https://ghostscript.com/releases/gsdnld.html) for Windows and note the location of the binary and library folders, e.g., `~\Program Files\gs\gs10.01.2\bin` and `~\Program Files\gs\gs10.01.2\lib`, respectively.
 
-## Setting up the Environment
+## Setting up the Environment and Test Run
 * Clone the repository.
 * Add the Ghostscript binary and library folders to PATH.
 * Add Tesseract-OCR executable to `py/TesseractUtils.py`
