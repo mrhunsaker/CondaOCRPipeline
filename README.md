@@ -14,9 +14,13 @@ Set up Anaconda environment with image preprocessing and optical character recog
 * Add Poppler binary folder to `py/TesseractUtils.py`
 
 ## Image Preprocessing Tools
-The accuracy of OCR can be affected by the quality of the image. Preprocessing the image (such as resizing, denoising, or enhancing contrast) can help improve OCR results. The following Python libraries are included in the environment to perform image preprocessing:
-1. OpenCV
-2. PIL
+The accuracy of OCR can be affected by the quality of the image. Preprocessing the image (such as resizing, denoising, or enhancing contrast) can help improve OCR results. The following discusses the strengths and weaknesses of image preprocessing tools included in the environment:
+1. OpenCV:
+* Strengths: OpenCV is a powerful and comprehensive computer vision library with extensive functionality. It offers a wide range of image processing algorithms and is highly efficient, optimized for speed, and suitable for real-time tasks. Its cross-platform support makes it versatile for various development environments, and it excels in handling complex image manipulations like filtering, edge detection, and geometric operations. Additionally, OpenCV can be easily integrated with other libraries, adding to its flexibility and utility.
+* Weaknesses: While OpenCV's vast functionality is a great advantage, it can also be a drawback for beginners due to its complex interface and steep learning curve. The documentation, although supported by a large community, may not cover all areas in-depth, which could pose challenges for users trying to explore more specialized tasks.
+2. PIL/Pillow
+* Strengths: Pillow (Python Imaging Library) provides a user-friendly and straightforward API, making it an ideal choice for basic image manipulation and preprocessing tasks. It is easy to get started with, and its simple interface is consistent and intuitive. Pillow also supports various image formats, enabling easy loading, saving, and conversion of images. Its clear and well-documented functionalities contribute to a beginner-friendly experience, making it easy for users to find the information they need.
+* Weaknesses: Pillow is implemented in pure Python, which can result in slower performance compared to OpenCV, especially for computationally intensive tasks. It lacks some of the more advanced computer vision and image processing functionalities that are available in OpenCV, making it less suitable for complex image manipulations. Additionally, Pillow may have limited support for some less common image formats compared to OpenCV.
 
 ## Optical Character Recognition Tools
 When choosing an OCR tool, it is important to consider the following factors:
@@ -26,7 +30,7 @@ When choosing an OCR tool, it is important to consider the following factors:
 * The level of control and customization you need in the OCR process.
 * The programming complexity and the available community support for each tool.
 
-Ultimately, the best OCR tool depends on the specific requirements and characteristics of your PDF documents. It is often beneficial to try multiple tools and evaluate their performance on a representative sample of your data to find the most suitable one. The following discusses the strengths and weaknesses of tools included in the environment.
+Ultimately, the best OCR tool depends on the specific requirements and characteristics of your PDF documents. It is often beneficial to try multiple tools and evaluate their performance on a representative sample of your data to find the most suitable one. The following discusses the strengths and weaknesses of OCR tools included in the environment:
 
 1. Tabula:
 * Strengths: Tabula is specifically designed for extracting tables from PDFs, making it ideal for tabular data extraction. It provides a simple interface to select tables graphically using a GUI or specify the table coordinates programmatically. Works well for structured data with clear table boundaries.
