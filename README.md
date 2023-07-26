@@ -10,8 +10,8 @@ Set up Anaconda environment with image preprocessing and optical character recog
 ## Setting up the Environment and Test Run
 * Clone the repository.
 * Add the Ghostscript binary and library folders to PATH.
-* Add Tesseract-OCR executable to `py/TesseractUtils.py`
-* Add Poppler binary folder to `py/TesseractUtils.py`
+* Add Tesseract-OCR executable to `py/TesseractUtils.py`.
+* Add Poppler binary folder to `py/TesseractUtils.py`.
 * Open Anaconda prompt and activate the base environment.
 * Navigate to the OCR repository.
 * Use the conda env create command followed by the --file flag and the path to your .yaml file to create the new environment: `conda env create --file ocr_conda.yaml`.
