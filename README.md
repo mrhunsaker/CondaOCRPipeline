@@ -12,6 +12,10 @@ Set up Anaconda environment with image preprocessing and optical character recog
 * Add the Ghostscript binary and library folders to PATH.
 * Add Tesseract-OCR executable to `py/TesseractUtils.py`
 * Add Poppler binary folder to `py/TesseractUtils.py`
+* Open Anaconda prompt and activate the base environment.
+* Navigate to the OCR repository.
+* Use the conda env create command followed by the --file flag and the path to your .yaml file to create the new environment: `conda env create --file ocr_conda.yaml`.
+* Once the environment is created, you can activate it using the following command: `conda activate OCR`.
 
 ## Image Preprocessing Tools
 The accuracy of OCR can be affected by the quality of the image. Preprocessing the image (such as resizing, denoising, or enhancing contrast) can help improve OCR results. The following discusses the strengths and weaknesses of image preprocessing tools included in the environment:
