@@ -14,7 +14,7 @@ Set up Anaconda environment with image preprocessing and optical character recog
 * Add Poppler binary folder to `py/TesseractUtils.py`.
 * Open Anaconda prompt and activate the base environment.
 * Navigate to the OCR repository.
-* Use the conda env create command followed by the --file flag and the path to your .yaml file to create the new environment: `conda env create --file ocr_conda.yaml`.
+* Use the conda env create command followed by the --file flag and the path to your .yaml file to create the new environment: `conda env create --file ocr_conda.yml`.
 * Once the environment is created, you can activate it using the following command: `conda activate OCR`.
 * Open the Spyder IDE with the following command: `spyder`.
 * Run `engine.py`.
